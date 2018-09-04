@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/index"
+    tools:context=".MainActivity">
+
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/loomaed"
+           android:id="@+id/nupp1"/>
+
+       <Button
+           android:layout_centerHorizontal="true"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_below="@+id/nupp1"
+           android:text="@string/nupp2"
+           android:id="@+id/nupp2"/>
+
+       <Button
+           android:layout_centerHorizontal="true"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_below="@+id/nupp2"
+           android:text="@string/nupp3"
+           android:id="@+id/nupp3"/>
+
+       <Button
+           android:layout_centerHorizontal="true"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_below="@+id/nupp3"
+           android:text="@string/nupp4"
+           android:id="@+id/nupp4"/>
+
+       <Button
+           android:layout_centerHorizontal="true"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_below="@+id/nupp4"
+           android:text="@string/nupp5"
+           android:id="@+id/nupp5"/>
+
+       <Button
+           android:layout_centerHorizontal="true"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_below="@+id/nupp5"
+           android:text="@string/nupp6"
+           android:id="@+id/nupp6"
+           android:onClick="Pildid" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
